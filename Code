@@ -1,0 +1,13 @@
+##Created on: October 2018
+##Created by: Justin Richards
+##Created for: ICS3UR-1
+##This program shows capital letters one by on with the entire alphabet lowercase.
+
+upperCase = unichr(65)
+lowerCase = unichr(97)
+
+for outerCount in range(65,91) :
+	upperCase = unichr(outerCount)
+	for innerCount in range(97,123) :
+		lowerCase = unichr(innerCount)
+		print str(upperCase) + "->" + str(lowerCase)
